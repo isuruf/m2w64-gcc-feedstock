@@ -13,38 +13,18 @@ Package license: ZPL-2.1 AND LGPL-2.1-or-later and MIT AND BSD-3-Clause-Clear
 
 Summary: Repackaged mingw-w64 binaries
 
-About mingw-w64-ucrt-x86_64-headers-git
----------------------------------------
+About m2w64-sysroot_win-arm64
+-----------------------------
 
-Home: https://www.mingw-w64.org/
+Home: https://mingw-w64.sourceforge.io/
 
-Package license: ZPL-2.1 AND LGPL-2.1-or-later
+Package license: ZPL-2.1 AND LGPL-2.1-or-later and MIT AND BSD-3-Clause-Clear
 
-Summary: MinGW-w64 headers for Windows (mingw-w64)
-
-
-About mingw-w64-ucrt-x86_64-libwinpthread-git
----------------------------------------------
-
-Home: https://www.mingw-w64.org/
-
-Package license: MIT AND BSD-3-Clause-Clear
-
-Summary: MinGW-w64 winpthreads library (mingw-w64)
+Summary: MinGW-w64 sysroot for Windows
 
 
-About mingw-w64-ucrt-x86_64-windows-default-manifest
-----------------------------------------------------
-
-Home: https://cygwin.com/
-
-Package license: BSD
-
-Summary: Default Windows application manifest (mingw-w64)
-
-
-About mingw-w64-ucrt-x86_64-crt-git
------------------------------------
+About mingw-w64-clang-aarch64-crt-git
+-------------------------------------
 
 Home: https://www.mingw-w64.org/
 
@@ -53,8 +33,18 @@ Package license: ZPL-2.1
 Summary: MinGW-w64 CRT for Windows (mingw-w64)
 
 
-About mingw-w64-ucrt-x86_64-winpthreads-git
--------------------------------------------
+About mingw-w64-clang-aarch64-headers-git
+-----------------------------------------
+
+Home: https://www.mingw-w64.org/
+
+Package license: ZPL-2.1 AND LGPL-2.1-or-later
+
+Summary: MinGW-w64 headers for Windows (mingw-w64)
+
+
+About mingw-w64-clang-aarch64-libwinpthread-git
+-----------------------------------------------
 
 Home: https://www.mingw-w64.org/
 
@@ -63,14 +53,24 @@ Package license: MIT AND BSD-3-Clause-Clear
 Summary: MinGW-w64 winpthreads library (mingw-w64)
 
 
-About m2w64-sysroot_win-64
---------------------------
+About mingw-w64-clang-aarch64-windows-default-manifest
+------------------------------------------------------
 
-Home: https://mingw-w64.sourceforge.io/
+Home: https://cygwin.com/
 
-Package license: ZPL-2.1 AND LGPL-2.1-or-later and MIT AND BSD-3-Clause-Clear
+Package license: BSD
 
-Summary: MinGW-w64 sysroot for Windows
+Summary: Default Windows application manifest (mingw-w64)
+
+
+About mingw-w64-clang-aarch64-winpthreads-git
+---------------------------------------------
+
+Home: https://www.mingw-w64.org/
+
+Package license: MIT AND BSD-3-Clause-Clear
+
+Summary: MinGW-w64 winpthreads library (mingw-w64)
 
 
 Current build status
@@ -91,12 +91,12 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-m2w64--sysroot_win--64-green.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/m2w64-sysroot_win-64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/m2w64-sysroot_win-64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/m2w64-sysroot_win-64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-64) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86_64--crt--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-crt-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-crt-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-crt-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-crt-git) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86_64--headers--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-headers-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-headers-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-headers-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-headers-git) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86_64--libwinpthread--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-libwinpthread-git) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86_64--windows--default--manifest-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-windows-default-manifest) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--ucrt--x86_64--winpthreads--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-ucrt-x86_64-winpthreads-git) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-m2w64--sysroot__win--arm64-green.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/m2w64-sysroot_win-arm64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/m2w64-sysroot_win-arm64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/m2w64-sysroot_win-arm64.svg)](https://anaconda.org/conda-forge/m2w64-sysroot_win-arm64) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--clang--aarch64--crt--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-crt-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-clang-aarch64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-crt-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-clang-aarch64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-crt-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-clang-aarch64-crt-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-crt-git) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--clang--aarch64--headers--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-headers-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-clang-aarch64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-headers-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-clang-aarch64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-headers-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-clang-aarch64-headers-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-headers-git) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--clang--aarch64--libwinpthread--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-libwinpthread-git) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--clang--aarch64--windows--default--manifest-green.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-windows-default-manifest) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mingw--w64--clang--aarch64--winpthreads--git-green.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-winpthreads-git) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mingw-w64-clang-aarch64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-winpthreads-git) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mingw-w64-clang-aarch64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-winpthreads-git) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mingw-w64-clang-aarch64-winpthreads-git.svg)](https://anaconda.org/conda-forge/mingw-w64-clang-aarch64-winpthreads-git) |
 
 Installing m2w64-gcc
 ====================
@@ -108,41 +108,41 @@ conda config --add channels conda-forge/label/m2w64-experimental
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/m2w64-experimental` channel has been enabled, `m2w64-sysroot_win-64, mingw-w64-ucrt-x86_64-crt-git, mingw-w64-ucrt-x86_64-headers-git, mingw-w64-ucrt-x86_64-libwinpthread-git, mingw-w64-ucrt-x86_64-windows-default-manifest, mingw-w64-ucrt-x86_64-winpthreads-git` can be installed with `conda`:
+Once the `conda-forge/label/m2w64-experimental` channel has been enabled, `m2w64-sysroot_win-arm64, mingw-w64-clang-aarch64-crt-git, mingw-w64-clang-aarch64-headers-git, mingw-w64-clang-aarch64-libwinpthread-git, mingw-w64-clang-aarch64-windows-default-manifest, mingw-w64-clang-aarch64-winpthreads-git` can be installed with `conda`:
 
 ```
-conda install m2w64-sysroot_win-64 mingw-w64-ucrt-x86_64-crt-git mingw-w64-ucrt-x86_64-headers-git mingw-w64-ucrt-x86_64-libwinpthread-git mingw-w64-ucrt-x86_64-windows-default-manifest mingw-w64-ucrt-x86_64-winpthreads-git
-```
-
-or with `mamba`:
-
-```
-mamba install m2w64-sysroot_win-64 mingw-w64-ucrt-x86_64-crt-git mingw-w64-ucrt-x86_64-headers-git mingw-w64-ucrt-x86_64-libwinpthread-git mingw-w64-ucrt-x86_64-windows-default-manifest mingw-w64-ucrt-x86_64-winpthreads-git
-```
-
-It is possible to list all of the versions of `m2w64-sysroot_win-64` available on your platform with `conda`:
-
-```
-conda search m2w64-sysroot_win-64 --channel conda-forge/label/m2w64-experimental
+conda install m2w64-sysroot_win-arm64 mingw-w64-clang-aarch64-crt-git mingw-w64-clang-aarch64-headers-git mingw-w64-clang-aarch64-libwinpthread-git mingw-w64-clang-aarch64-windows-default-manifest mingw-w64-clang-aarch64-winpthreads-git
 ```
 
 or with `mamba`:
 
 ```
-mamba search m2w64-sysroot_win-64 --channel conda-forge/label/m2w64-experimental
+mamba install m2w64-sysroot_win-arm64 mingw-w64-clang-aarch64-crt-git mingw-w64-clang-aarch64-headers-git mingw-w64-clang-aarch64-libwinpthread-git mingw-w64-clang-aarch64-windows-default-manifest mingw-w64-clang-aarch64-winpthreads-git
+```
+
+It is possible to list all of the versions of `m2w64-sysroot_win-arm64` available on your platform with `conda`:
+
+```
+conda search m2w64-sysroot_win-arm64 --channel conda-forge/label/m2w64-experimental
+```
+
+or with `mamba`:
+
+```
+mamba search m2w64-sysroot_win-arm64 --channel conda-forge/label/m2w64-experimental
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search m2w64-sysroot_win-64 --channel conda-forge/label/m2w64-experimental
+mamba repoquery search m2w64-sysroot_win-arm64 --channel conda-forge/label/m2w64-experimental
 
-# List packages depending on `m2w64-sysroot_win-64`:
-mamba repoquery whoneeds m2w64-sysroot_win-64 --channel conda-forge/label/m2w64-experimental
+# List packages depending on `m2w64-sysroot_win-arm64`:
+mamba repoquery whoneeds m2w64-sysroot_win-arm64 --channel conda-forge/label/m2w64-experimental
 
-# List dependencies of `m2w64-sysroot_win-64`:
-mamba repoquery depends m2w64-sysroot_win-64 --channel conda-forge/label/m2w64-experimental
+# List dependencies of `m2w64-sysroot_win-arm64`:
+mamba repoquery depends m2w64-sysroot_win-arm64 --channel conda-forge/label/m2w64-experimental
 ```
 
 
